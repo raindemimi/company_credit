@@ -1,0 +1,42 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1088px;
+}
+/* .el-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.el-header {
+  height: 80px !important;
+  position: fixed;
+  width: 100%;
+  background-color: #f0f3f4;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  align-items: center;
+  z-index: 9;
+}
+.top_title {
+  font-size: 28px !important;
+  font-weight: bold;
+}
+.search {
+  display: flex;
+}
+.search .el-button {
+  width: 100px;
+  background-color: #01a4ff;
+  color: #eeeeee;
+}
+
+.el-footer {
+  display: flex;
+  justify-content: center;
+  color: #707578;
+}

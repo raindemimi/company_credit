@@ -1,0 +1,64 @@
+import Vue from 'vue'
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Container,
+  Header,
+  Main,
+  Footer,
+  Avatar,
+  Table,
+  TableColumn,
+  Col,
+  Row,
+  Message,
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+  Drawer,
+  Aside,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Card,
+  Dialog,
+  Tabs,
+  TabPane,
+  Tag
+} from 'element-ui'
+
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Footer)
+Vue.use(Avatar)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Col)
+Vue.use(Row)
+Vue.prototype.$message = Message
+Vue.use(Dropdown)
+Vue.use(DropdownItem)
+Vue.use(DropdownMenu)
+Vue.use(Drawer)
+Vue.use(Aside)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Card)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Dialog)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Tag)
